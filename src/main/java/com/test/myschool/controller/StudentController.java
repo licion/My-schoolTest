@@ -22,8 +22,8 @@ public class StudentController {
         studentService.saveStudent(student);
         //2调用service
         //3相应结果
-        return null;
+        return R.success();
     }
 
-    
+
 }
